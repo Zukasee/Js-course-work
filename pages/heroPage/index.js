@@ -4,7 +4,6 @@ const heroName = window.location.hash.slice(1) //abaddon
 const heroData = heroesData[heroName]
 
 document.title = heroName
-
 const heroTitle = document.createElement('h3')
 heroTitle.innerHTML = heroName
 
